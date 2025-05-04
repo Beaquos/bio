@@ -17,19 +17,24 @@
       <a href="https://www.instagram.com/beaquos">nosso instagram</a>
     </div>
     <footer>
-      <div class="icones-redes">
-        <a href="https://www.instagram.com/beaquos" target="_blank">
-          <img src="icon-instagram.svg" alt="Instagram" />
-        </a>
-        <a href="mailto:email@exemplo.com">
-          <img src="icon-email.svg" alt="E-mail" />
-        </a>
-      </div>
+      <a href="https://instagram.com" target="_blank"><img src="icon-instagram.svg" alt="Instagram" /></a>
+      <a href="mailto:email@exemplo.com"><img src="icon-email.svg" alt="E-mail" /></a>
       <div class="rodape-texto">
-        Desenvolvido por Beaquos Estúdio Criativo
-        © Todos os direitos reservados
+        <p>Desenvolvido por Beaquos Estúdio Criativo</p>
+        <p>© Todos os direitos reservados</p>
       </div>
     </footer>
   </div>
+
+  <!-- Script para efeito de "acender" -->
+  <script>
+    const cartao = document.querySelector('.cartao');
+    cartao.addEventListener('click', () => {
+      cartao.classList.add('acender');
+      setTimeout(() => {
+        cartao.classList.remove('acender');
+      }, 300);
+    });
+  </script>
 </body>
 </html>
