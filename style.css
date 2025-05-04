@@ -79,3 +79,7 @@ footer a img {
   margin-top: 15px;
   line-height: 1.4;
 }
+.cartao.acender {
+  box-shadow: 0 0 30px rgba(249, 170, 101, 0.6), 0 0 60px rgba(249, 170, 101, 0.3);
+  background: #fffefc;
+}
