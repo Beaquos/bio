@@ -26,6 +26,19 @@ body {
   object-fit: cover;
   margin-bottom: 25px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border: 4px solid #f9aa65; /* Borda laranja */
+}
+.titulo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #133a41;
+  margin: 10px 0 5px;
+}
+
+.subtitulo {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
 }
 
 .cartao h1 {
@@ -74,10 +87,10 @@ footer a img {
 
 .rodape-texto {
   font-size: 10px;
-  color: #777;
+  color: #999;
   text-align: center;
-  margin-top: 10px;
-  line-height: 1.2;
+  margin-top: 20px;
+  line-height: 1.3;
 }
 .cartao.acender {
   box-shadow: 0 0 30px rgba(249, 170, 101, 0.6), 0 0 60px rgba(249, 170, 101, 0.3);
