@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seu Nome | Cartão Virtual</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="cartao">
+    <img src="sua-foto.jpg" alt="Foto de perfil" class="foto-perfil">
+    <h1>Seu Nome</h1>
+    <p>Profissão ou título</p>
+    <div class="links">
+      <a href="https://wa.me/SEUNUMERO" target="_blank">WhatsApp</a>
+      <a href="https://instagram.com/SEUUSUARIO" target="_blank">Instagram</a>
+      <a href="mailto:seu@email.com">E-mail</a>
+    </div>
+  </div>
+</body>
+</html>
