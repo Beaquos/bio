@@ -10,13 +10,14 @@ body {
 }
 
 .cartao {
-  background: white;
-  padding: 40px 20px;
-  border-radius: 15px;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
-  text-align: center;
-  width: 100%;
-  max-width: 400px;
+    background: white;
+    padding: 18px 10px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 90%;
+    max-width: 350px;
+
 }
 
 .foto-perfil {
@@ -39,17 +40,6 @@ body {
   font-size: 14px;
   color: #666;
   margin-bottom: 20px;
-}
-
-.cartao h1 {
-  font-size: 28px;
-  margin: 10px 0 5px;
-}
-
-.cartao p {
-  font-size: 18px;
-  color: #555;
-  margin-bottom: 25px;
 }
 .links a {
   display: block;
