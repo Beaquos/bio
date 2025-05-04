@@ -76,8 +76,8 @@ footer a img {
   font-size: 10px;
   color: #777;
   text-align: center;
-  margin-top: 15px;
-  line-height: 1.4;
+  margin-top: 10px;
+  line-height: 1.2;
 }
 .cartao.acender {
   box-shadow: 0 0 30px rgba(249, 170, 101, 0.6), 0 0 60px rgba(249, 170, 101, 0.3);
