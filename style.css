@@ -50,7 +50,7 @@ body {
   padding: 10px 0;
   border-radius: 5px;
   width: 100%;
-  max-width: 300px;
+  max-width: 256px;
   transition: background 0.3s ease;
 }
 
